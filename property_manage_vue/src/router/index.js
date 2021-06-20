@@ -11,6 +11,12 @@ const routes = [
     component: () =>
       import("../views/Login.vue"),
   },
+  {
+    path: "/adminIndex",
+    name: "AdminIndex",
+    component: () =>
+        import("../views/AdminIndex.vue"),
+  },
 ];
 
 const router = createRouter({
